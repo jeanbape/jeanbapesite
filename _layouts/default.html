@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
-<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
@@ -12,30 +12,21 @@
 
 <header>
     <nav class="main-nav">
-        <ul class="menu-principal">
-            <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
-            <li class="dropdown">
-                <a href="#">Cahier de Texte ▼</a>
-                <ul class="submenu">
-                    <li><a href="{{ '/cdt.html#septembre' | relative_url }}">Septembre</a></li>
-                    <li><a href="{{ '/cdt.html#octobre' | relative_url }}">Octobre</a></li>
-                    <li><a href="{{ '/cdt.html#novembre' | relative_url }}">Novembre</a></li>
-                    <li><a href="{{ '/cdt.html#decembre' | relative_url }}">Décembre</a></li>
-                    <li><a href="{{ '/cdt.html#janvier' | relative_url }}">Janvier</a></li>
-                    <li><a href="{{ '/cdt.html#fevrier' | relative_url }}">Février</a></li>
-                    <li><a href="{{ '/cdt.html#mars' | relative_url }}">Mars</a></li>
-                    <li><a href="{{ '/cdt.html#avril' | relative_url }}">Avril</a></li>
-                    <li><a href="{{ '/cdt.html#mai' | relative_url }}">Mai</a></li>
-                    <li><a href="{{ '/cdt.html#juin' | relative_url }}">Juin</a></li>
-                </ul>
-            </li>
-            <li><a href="{{ '/cours.html' | relative_url }}">Cours</a></li>
-            <li><a href="{{ '/liens.html' | relative_url }}">Liens</a></li>
-            <li><a href="{{ '/code.html' | relative_url }}">Code</a></li>
-            <li><a href="{{ '/Exposes.html' | relative_url }}">Exposés</a></li>
-            <li><a href="{{ '/rallye.html' | relative_url }}">Rallye</a></li>
-            <li><a href="{{ '/livres.html' | relative_url }}">M'acheter un livre</a></li>
-        </ul>
+        <div class="container-nav">
+            <ul class="menu-principal">
+                <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
+                <li class="dropdown">
+                    <a href="#">Cahier de Texte ▼</a>
+                    <ul class="submenu">
+                        <li><a href="{{ '/cdt.html#septembre' | relative_url }}">Septembre</a></li>
+                        <li><a href="{{ '/cdt.html#octobre' | relative_url }}">Octobre</a></li>
+                        <li><a href="{{ '/cdt.html#novembre' | relative_url }}">Novembre</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ '/cours.html' | relative_url }}">Cours</a></li>
+                <li><a href="{{ '/liens.html' | relative_url }}">Liens</a></li>
+            </ul>
+        </div>
     </nav>
 </header>
 
