@@ -1,31 +1,24 @@
 ---
 layout: default
-title: Cahier de texte 3°4
+title: Cahier de texte
 ---
 
-# Cahier de texte - Mathématiques
+# Cahier de texte - 3ème 4
 
-<section id="septembre">
-<h2>Septembre</h2>
-
-<div class="seance">
-<div class="date-bloc">Lundi 04 sept.</div>
-<div class="contenu-bloc">
-<strong>Contenu :</strong> Accueil et présentation du travail de l'année. 
-<div class="travail-a-faire">Travail : Apporter le matériel pour demain.</div>
-</div>
-</div>
+## Septembre
 
 <div class="seance">
-<div class="date-bloc">Mardi 05 sept.</div>
-<div class="contenu-bloc">
-<strong>Contenu :</strong> Début du chapitre sur le calcul numérique. Rappels sur les fractions.
-<div class="travail-a-faire">Exercices : Faire les n°3 et 4 de la fiche.</div>
-</div>
+  <div class="date-bloc">Lundi 01 sept.</div>
+  <div class="contenu-bloc">
+    Présentation de l'année et distribution du matériel.
+    <div class="travail-a-faire">Travail : Faire signer le règlement.</div>
+  </div>
 </div>
 
-</section>
-
-<section id="octobre">
-<h2>Octobre</h2>
-</section>
+<div class="seance">
+  <div class="date-bloc">Mardi 02 sept.</div>
+  <div class="contenu-bloc">
+    Révisions sur les puissances de 10.
+    <div class="travail-a-faire">Exercices : n°12 et 14 p. 20.</div>
+  </div>
+</div>
