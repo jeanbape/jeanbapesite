@@ -1,24 +1,22 @@
 ---
 layout: default
-title: Cahier de texte
+title: Accueil
 ---
 
-# Cahier de texte - 3ème 4
-
-## Septembre
+# Mathématiques en 3°4
 
 <div class="seance">
-  <div class="date-bloc">Lundi 01 sept.</div>
+  <div class="date-bloc">14 Avril 2026</div>
   <div class="contenu-bloc">
-    Présentation de l'année et distribution du matériel.
-    <div class="travail-a-faire">Travail : Faire signer le règlement.</div>
+    <strong>Annonce :</strong> Mise en ligne de la nouvelle version du site. 
+    Design responsive testé pour les smartphones des élèves.
   </div>
 </div>
 
 <div class="seance">
-  <div class="date-bloc">Mardi 02 sept.</div>
+  <div class="date-bloc">Prochainement</div>
   <div class="contenu-bloc">
-    Révisions sur les puissances de 10.
-    <div class="travail-a-faire">Exercices : n°12 et 14 p. 20.</div>
+    <strong>DS n°5 :</strong> Prévu pour la semaine prochaine. 
+    <br>[Télécharger la fiche de révision](docs/revision.pdf){: .btn}
   </div>
 </div>
