@@ -1,0 +1,4 @@
+title: "JeanBape Site"
+description: "Ressources et cahier de texte pour mes élèves"
+markdown: kramdown
+permalink: /:basename.html
