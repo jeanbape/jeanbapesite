@@ -1,5 +1,4 @@
-title: "JeanBape Site"
-description: "Ressources et cahier de texte pour mes élèves"
+title: "Mathématiques JBa"
 markdown: kramdown
-permalink: /:basename.html
-baseurl: "/jeanbapesite" 
+baseurl: "/jeanbapesite"
+url: "https://jeanbape.github.io"
